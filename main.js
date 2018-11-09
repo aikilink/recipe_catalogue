@@ -1,2 +1,6 @@
-/*var x = document.getElementById("initialize_button");
-console.log(x);*/
+var initialize = function() {
+    x = document.getElementById("recipe_url").value;
+    console.log(x);
+    return x
+};
+

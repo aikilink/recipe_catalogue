@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RecipeSave Home</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="script" href="main.js">
+    <script src="main.js"></script>
 </head>
 <body>
     <div>
@@ -15,8 +15,9 @@
         </p>
     </div>
     <div class="link_input">
-        <input type="link">
-        <button id="initialize_button">Load Recipe!</button>
+        <input type="text" id="recipe_url">
+        <button onclick="initialize()">Go!</button>
+        <!--<button id="initialize_button">Load Recipe!</button>-->
     </div>
 </body>
 </html>
