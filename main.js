@@ -21,4 +21,7 @@ function link_counter() {
 
 /*add function to make new paragraphs*/
 
+function insert_para() {
+    /*insert para into log_div/*
+}
 
