@@ -21,11 +21,16 @@ function link_counter() {
 };
 
 function insert_para() {
-    var para = document.createElement("p");
-    var node = document.createTextNode(x);
-    para.appendChild(node);
-    var new_element = document.getElementById("log_div");
-    new_element.appendChild(para);
+    if (x) {
+        var para = document.createElement("p");
+        var node = document.createTextNode(x);
+        para.appendChild(node);
+        var new_element = document.getElementById("log_div");
+        new_element.appendChild(para);
+    }
+    else {
+        alert("Please enter something into the text-box. Ty")
+    }
 }
 
 function reset_fields() {
@@ -38,4 +43,3 @@ function reset_fields() {
         console.log("Reset was cancelled");
     }
 }
-
