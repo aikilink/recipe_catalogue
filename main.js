@@ -28,3 +28,14 @@ function insert_para() {
     new_element.appendChild(para);
 }
 
+function reset_fields() {
+    var r = confirm("Are you sure you want to clear all data?");
+    if (r == true) {
+        document.getElementById("saved_link").innerHTML = "*Reference Point*";
+        count = 0;
+    }
+    else {
+        console.log("Reset was cancelled");
+    }
+}
+
