@@ -10,10 +10,6 @@ var initialize = function() {
     return x
 };
 
-// function log_x() {
-//     console.log(x);
-// };
-
 //link_counter function doesn't do anything aside from incrementing var count, and logging count
 function link_counter() {
     count += 1;
@@ -40,6 +36,6 @@ function reset_fields() {
         count = 0;
     }
     else {
-        console.log("Reset was cancelled");
+        console.log("Reset was canceled");
     }
 }
